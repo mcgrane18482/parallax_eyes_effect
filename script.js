@@ -53,8 +53,6 @@ function handleMouseMove(event) {
         pupil.style.transform = `translate(${output.x.current}px, ${output.y.current}px)`;
     }
 
-    //   console.log('fraction X', input.mouseX.fraction)
-    //   console.log('fraction Y', input.mouseY.fraction)
 };
 
 function handleResize() {
